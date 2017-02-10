@@ -56,7 +56,7 @@ def get_tweets(user, count=50):
 
     tweets = []
     for tweet in user_timeline:
-        tweets.append(tweet)
+        tweets.append(tweet['text'])
 
     return tweets
 
